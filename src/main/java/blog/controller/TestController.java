@@ -23,7 +23,7 @@ import java.util.List;
  * 
  * create by Liujishuai on 2015年9月21日
  */
-@Controller("testController")
+@Controller
 @RequestMapping("/test")
 public class TestController extends BaseController {
 	@Autowired
