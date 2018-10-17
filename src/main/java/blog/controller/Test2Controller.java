@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * 
  * create by Liujishuai on 2015年9月21日
  */
-@Controller("test2Controller")
+@Controller
 @RequestMapping("/test2")
 public class Test2Controller extends BaseController {
 	@Autowired
